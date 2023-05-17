@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regstration form</title>
+</head>
+<body>
+    <header>
+        <h2>REGSTRATION FORM</h2>
+    </header>
+    <form>
+        <div class="container">
+        <label for ="name">Name:</label>
+        <input type="text"id="name"name="name"required>
+        <label for="email">Email:</label>
+        <input type="email"id="email"name="email"required>
+        <label for ="password">password:</label>
+        <input type="password"id="password"name="password"required>
+        <label for ="phone number">Phone number:</label>
+        <input type="tel"id="phone number"name="phone number"required>
+        <label for ="gender">Gender:</label>
+        <section id="gender">
+            <input type="radio"name="gender"male>male
+            <input type="radio"name="gender"female>female
+            <input type="radio"name="gender"other>other
+        </section>
+        <label for="lanuguage">lanuguage</label>
+        <input type="text"id="lanuguage"lanuguage="lanuguage">
+        <label for="zip code">Zip code</label>
+        <input type="zip code"id="zip code"zip code="zip code"required>
+        <label for ="about">About:</label>
+        <textarea id="about"></textarea>
+        <div class="mahi">
+        <input type="submit"value="submit"></div>
+        </div>
+    </form>   
+</body>
+</html>
+<style>
+    body{
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(94, 40, 40);
+color: black;
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        color: bisque;
+    }
+    form{
+        padding: 15px;
+        height: 600px;
+        border-radius: 6px;
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: rgb(195, 151, 190);
+    }
+    label{
+        display: block;
+        margin: 2px;
+        font-weight: bold;
+    }
+    input[type=text],
+    input[type=tel],
+    input[type=email],
+    input[type=password],
+    textarea{
+        padding: 5px;
+        border: 1px solid rgb(171, 141, 169);
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    section{
+        width: 100%;
+        padding: 6px;
+        border: 1px solid rgb(130, 124, 124);
+        border-radius: 3px;
+        margin-bottom: 8px;
+    }
+    input[type="submit"]{
+        color: brown;
+        background-color:aqua;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(42, 155, 165);
+    }
+    container{
+        width: 400;
+        height: 600;
+    }
+
+</style>
